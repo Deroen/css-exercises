@@ -7,7 +7,7 @@
     background-color: yellow;
 }
 
-.clickme.noclickme {
-    font-size: 28px;
+.clickme, .noclickme {
+    font-size: 56px;
     font-family: Helvetica, Times New Roman, sans-serif;
 }
