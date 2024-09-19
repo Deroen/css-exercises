@@ -2,18 +2,18 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.small-para {
+  font-size: 14px;
+}
+
 .para,
 .small-para {
   color: hsl(0, 0%, 0%);
   font-weight: 800;
 }
 
-.small-para {
-  font-size: 14px;
-  font-weight: 800;
-}
 
-.para {
+[class=para] {
   font-size: 22px;
 }
 
@@ -23,9 +23,12 @@ body {
   font-weight: bold;
 } 
 
-.button {
+.cancel {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
+}
+
+.button {
   font-size: 20px;
 }
 
@@ -35,7 +38,7 @@ body {
   font-size: 14px;
 }
 
-div.text {
+div[class="text"] {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
